@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>测试</title>
-      <link href="/2025/03/11/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2025/03/11/%E6%B5%8B%E8%AF%95/</url>
+      <title>家庭设备内网穿透</title>
+      <link href="/2025/03/11/%E5%AE%B6%E5%BA%AD%E8%AE%BE%E5%A4%87%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+      <url>/2025/03/11/%E5%AE%B6%E5%BA%AD%E8%AE%BE%E5%A4%87%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</url>
       
-        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mingtian</span><br><span class="line">huigenghao</span><br><span class="line">nixinme</span><br><span class="line">zhejiushi</span><br><span class="line">yiju</span><br><span class="line">wanxiaohua</span><br><span class="line">bale</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul><li>注册cloudflare账号</li><li>拥有一个域名并且添加到cloudflare</li><li>路由器安装DDNS-GO或者动态DNS插件</li></ul><h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><p>这里以DDNS-GO插件为例</p><ol><li>在cloudflare我的个人资料那里创建<a href="https://dash.cloudflare.com/profile/api-tokens">API令牌</a>权限为区域.DNS,资源选择你要用的域名或者选择为所有区域</li><li>在域名DNS解析中添加一个A记录内容可以任意填写一个IP地址</li><li>路由器DDNS-GO插件中DNS服务商选择cloudflare，将API令牌填写到TOKEN处</li><li>Domains填写解析的域名-保存</li><li>cloudflare选中域名-规则-Origin Rules-创建规则<ul><li>字段：主机名</li><li>运算符：等于</li><li>值：解析的域名</li><li>目标端口-重写到-内网的端口号-保存</li></ul></li><li>SSL&#x2F;TLS选为灵活就好不需要自己配置证书</li><li>路由器设置本地的端口转发</li></ol><p>到此基本就可以愉快的访问啦</p>]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
       
     </entry>
     
