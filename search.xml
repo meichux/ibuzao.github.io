@@ -5,8 +5,8 @@
     
     <entry>
       <title>家庭设备内网穿透</title>
-      <link href="/posts/c27aca5d"/>
-      <url>/posts/c27aca5d</url>
+      <link href="/2025/03/11/%E5%AE%B6%E5%BA%AD%E8%AE%BE%E5%A4%87%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+      <url>/2025/03/11/%E5%AE%B6%E5%BA%AD%E8%AE%BE%E5%A4%87%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</url>
       
         <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul><li>注册cloudflare账号</li><li>拥有一个域名并且添加到cloudflare</li><li>路由器安装DDNS-GO或者动态DNS插件</li></ul><h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><p>这里以DDNS-GO插件为例</p><ol><li>在cloudflare我的个人资料那里创建<a href="https://dash.cloudflare.com/profile/api-tokens">API令牌</a>权限为区域.DNS,资源选择你要用的域名或者选择为所有区域</li><li>在域名DNS解析中添加一个A记录内容可以任意填写一个IP地址</li><li>路由器DDNS-GO插件中DNS服务商选择cloudflare，将API令牌填写到TOKEN处</li><li>Domains填写解析的域名-保存</li><li>cloudflare选中域名-规则-Origin Rules-创建规则<ul><li>字段：主机名</li><li>运算符：等于</li><li>值：解析的域名</li><li>目标端口-重写到-内网的端口号-保存</li></ul></li><li>SSL&#x2F;TLS选为灵活就好不需要自己配置证书</li><li>路由器设置本地的端口转发</li></ol><p>到此基本就可以愉快的访问啦</p>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>写给迷茫的自己</title>
-      <link href="/posts/269d3d81"/>
-      <url>/posts/269d3d81</url>
+      <link href="/2025/03/09/%E5%86%99%E7%BB%99%E8%BF%B7%E8%8C%AB%E7%9A%84%E8%87%AA%E5%B7%B1/"/>
+      <url>/2025/03/09/%E5%86%99%E7%BB%99%E8%BF%B7%E8%8C%AB%E7%9A%84%E8%87%AA%E5%B7%B1/</url>
       
         <content type="html"><![CDATA[<p>不知道写一些什么，简单写一些最近的所感所想。<br>目前本人处于待业的状态，每天过的浑浑噩噩昼夜颠倒，不是吃就是睡。几乎宅到家里面不出门，有时候会感觉到自己活在这个世界上到底有什么价值，自己也没有很大的上进心，其实我也特别痛恨自己现在的这副鬼模样，一会儿心血来潮就想着自己是否可以通过什么方法途径来改变现状，在脑中想的很美好，但是很快就被现实所打破。随着年龄的增长自己也意识到现在比小时候多了很多顾虑，有时候也特别羡慕周边的一些朋友，在我看来人家就是行动派，说干就干哪怕做错，但是我始终都是瞻前顾后的总担心出错，很难把自己的一些想法付诸于实践。<br>每天都处于迷茫中，自己有时候感觉自己的迷茫期也太长了，每天都是如此度过，每天都是没有意义的虚度。我能否做一些事情来充实我目前的生活，自己学习也实在是学不进去了，不妨写一些笔记给当前的自己，即使虚度了时光也可以在以后的人生长河里慢慢的去反复回味以前的自己。<br>迷茫不可怕，就怕像我现在一样的思想不思进取，在接下来的几天内，我一定要给自己定一些小目标，并且慢慢来实现它，慢慢的让自己的生活充满乐趣。<br>我需要始终相信自己，只要今天的自己比昨天有进步，那就是不小的进步。</p>]]></content>
       
@@ -55,8 +55,8 @@
     
     <entry>
       <title>大脑记忆力减弱</title>
-      <link href="/posts/351ffcb9"/>
-      <url>/posts/351ffcb9</url>
+      <link href="/2025/03/08/%E5%A4%A7%E8%84%91%E8%AE%B0%E5%BF%86%E8%83%BD%E5%8A%9B%E5%87%8F%E5%BC%B1/"/>
+      <url>/2025/03/08/%E5%A4%A7%E8%84%91%E8%AE%B0%E5%BF%86%E8%83%BD%E5%8A%9B%E5%87%8F%E5%BC%B1/</url>
       
         <content type="html"><![CDATA[<p><strong>自打毕业开始工作后开始意识到脑子不够用了记忆力也开始有所减退，平时在学校还会用到大脑，但是到日常工作上面对枯燥的工作几乎都不要经过大脑的思考，可能跟用的少的关系是极大的，在现在的日常生活中可能记住一个物品的名字或者什么转眼见就被忘得一干二净啦，一直在思考有没有什么办法可以让大脑得到一定的锻炼，不然的话感觉脑袋果真就成为榆木脑袋啦。询问了一下GPT，它给我了一些小方法，我感觉还是可以借鉴一下子的</strong></p><h2 id="制定学习计划"><a href="#制定学习计划" class="headerlink" title="制定学习计划"></a>制定学习计划</h2><p>它给我推荐比如可以读书、定期学习自己感兴趣领域的相关知识。感觉制定一个学习计划即学习目标也是非常有必要的，这样能够让大脑经常被使用到。</p><h2 id="增加身体运动"><a href="#增加身体运动" class="headerlink" title="增加身体运动"></a>增加身体运动</h2><p>身体健康是革命的本钱，运动确实可以释放出一些多巴胺，可能运动的过程使人很难受，但是运动过后给人带来的心情确实很愉悦的并且大脑也会感到非常的放松。</p><h2 id="管理压力"><a href="#管理压力" class="headerlink" title="管理压力"></a>管理压力</h2><p>冥想和深呼吸练习，合理安排自己的休闲娱乐时间。</p><h2 id="培养兴趣爱好"><a href="#培养兴趣爱好" class="headerlink" title="培养兴趣爱好"></a>培养兴趣爱好</h2><p>我一直以来都没有什么兴趣爱好，总是感觉爱好跟自己没什么关系，有时候心血来潮想干什么了，但是又三天打鱼两天晒网以至于到最后搁置。以后要改变这种态度，慢慢培养起来自己的兴趣爱好。</p><h2 id="保持社交联系"><a href="#保持社交联系" class="headerlink" title="保持社交联系"></a>保持社交联系</h2><p>我感觉也就是平常和别人多交流，应该可以提升自己的表达能力和锻炼到自己的语言组织能力，自然而然的大脑也可以得到一定的锻炼。</p><h2 id="反思和记录"><a href="#反思和记录" class="headerlink" title="反思和记录"></a>反思和记录</h2><p>反思是最好的老师，只有深刻的反思才可以让自己吸取到一些经验以至于改掉自己的某些不足，平常可以反思自己所做的一些事情觉得有什么意义并且自己可以写日记或者写博客记录下来。</p>]]></content>
       
@@ -80,8 +80,8 @@
     
     <entry>
       <title>笔记</title>
-      <link href="/posts/61622d0e"/>
-      <url>/posts/61622d0e</url>
+      <link href="/2025/03/08/%E7%AC%94%E8%AE%B0/"/>
+      <url>/2025/03/08/%E7%AC%94%E8%AE%B0/</url>
       
         <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="83f1e3d9aa5a3c42a509cf0b8dff2f2d6f17875c755790515f21c716c194bfe3">c70b2944c3e1cfeba771fdc86dc5072d5c05c6402455e6d4170f65761c717aae81aed88e385403a21d801dd38cf19c3157ee14cd0cd81e6bbb227d05959ce496f0b2ce1a79393bcdcd4e9f5a5cd7ff54f6c405d45c167d2adc26fa3324eabb2cb2b6fc298c1806094af0e91adce66d3e438531fca3a27c760534ad78ea47846419420f159cb38ad0fb124b8b3ad40e307dc82b16cc55d94983f4f9be3952a3149a1d867d9c3f9222044899e2c7ef1efdda9966eff8167fa56747835314bce8240cbea2a196e705784fbe00f65c1239bbbc7660d450c7cfe9efbc6d6e1c2c50945b7b522cd40c79169aaa27f7ddce49b4691344e444481e596d82e145e88124f6be278eea6ea8301148ec62d34e08a1721401e15d812d18fa9fee5b68a6641f849bdeeb74247f77165393c8e07d02facdabca28f72058b7dddbd9f087924bdf0b592b32a92d1256d8e8d68e3c49f1243f5520ddf2b956cbb90c8fcd559ae8a31a14404bd7cec0cbcf26eccda52cfd76004e16e9747f408b1de12e9cdd29706d706972d6841207d49cdb74519eece033840b0fd13660bd6de2eb4363a75549c0573444d1389619112e9792b26b1c65dc1e45452d0967af447a9b60ee337c0391dab46c2cd941e6ae3d6068f5b50a59fd0c4548320b5a8bc807b377f3b4b52cba1255c8eb03fa3db953c76aabe866278263be816c6a71a30501a784914e0e7f815aa9d98115b2aaf3e044f7af979949c4956ee9207013018f29708ccb3783543091fe74285fff1902246ef952e08ed1311bf6b55dfcae446a3accf1a12fddbf8c2d85d8e231faaee5895f5822206bb3a06719fca50c6b9466e5662bdd60e14ef0a74dfb3bc1ea7fe4fcde5e74eb5c0a7a387c546616dce5e26601b341fbb0034955a01391fb24d7fb169a049d938774ec4413ff27f339e8cc75ac0a6a4722cfc63bd088eb9b2ce8511d34c7c7b6cedb126af7a4b3135cfae2bb110ee91fcd32e701520200bf560e7034d579899efd734d6520ac79784c6b4d29d0aa88faadfb4a8a59f7fb3fa7165be89d8054fcee1ec9f40e4cd7d01b079cc6f5c93e910135d7581bc0e58d5889b3258f854af448f2131994fb0400677ceee59efb28e2901942dbd1541f841895d2995342fc91c4854b28f0f980d9aa40aa85f7c8b11779649d3948dcb35d664884f913cd4c9b4cf7f503704cf41443ccd043db5cd33c308ef0c9db781567d6b48774e5f5f609192c96324217561cf7cdd36d0aa17713f0f9987890c622dace06fc72a1ca03648e6252265ce36a9d57ac6b82efe9c4678c876d0a73d87bed259277654c20e669a6f138897c04152404958052bd8861107d53de9d3f002aab81a643bc88089b17e3e1fff13eafb549c7fe690ff96c28632dd0fc1d3f1559314a29b8876cc78c6467604d66f032ca76f7c74b7a48e7c80b328b5de471553b6862ca974eb9cf20a93521de4403af2253e36f1efdb16c7c0d4ecc4a23c259655b5367ed67782b969ed9031a88d726fac84dd3edbb6e54901fbc8d8735d7a3c67c45bbd88e856985262126b63520b2eb61a2ccb0a1f34101a070ea2fde105af28f0c28863516ef9665e752cdd25c937984f028ad1ffddbc1ef8503f9a77ce65de640ffc3378d9da7250a1c87179cd49eaaef8f31aaf7097fe24eb107966689549e18cf4c4fd718e4922bb400d1713bc938237b32702d355724ba2a9bc1109095f4f1ed08b016c78203d1d395a6915c4efd402796b3e01c297220c4b74e4e64ebcce89ece773b1a1e37abad9d70c499e88b496e1ca78107fb3e8bbcb3bf1d21905d62f2174f521905fec645f49c432318229c97796efe725ef240ffc3dc93ce011ba120446f21c6dfb73e22ee2d25b5121baadf7be160f6dc0e8d7981e37f0ebc903674d4bc6c34ae55b80c2c8c4008efdfdde063ecf5cc64f22a093c4ecbd32162c88ebf529ca0e0d463f74666cb925b5c4cc0abe3f08e8c5b4d6ab57a66c2acabd2454438be193ad9feb44bf75dec3d1ef74787321336114b2bb7613ff3feed2565fcea8a0f9b8597d4f9bb099aa76d5098c29117d5aecf0a70deb36b93b1a8bf80eb1164b277bcaec8f6bf46</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
@@ -93,8 +93,8 @@
     
     <entry>
       <title>关于行动力不足的思考</title>
-      <link href="/posts/5634cdad"/>
-      <url>/posts/5634cdad</url>
+      <link href="/2025/03/08/%E5%85%B3%E4%BA%8E%E8%A1%8C%E5%8A%A8%E5%8A%9B%E4%B8%8D%E8%B6%B3%E7%9A%84%E6%80%9D%E8%80%83/"/>
+      <url>/2025/03/08/%E5%85%B3%E4%BA%8E%E8%A1%8C%E5%8A%A8%E5%8A%9B%E4%B8%8D%E8%B6%B3%E7%9A%84%E6%80%9D%E8%80%83/</url>
       
         <content type="html"><![CDATA[<h1 id="关于行动力不足的思考"><a href="#关于行动力不足的思考" class="headerlink" title="关于行动力不足的思考"></a>关于行动力不足的思考</h1><p>理解你的困境，这是很多人都面临的挑战：明明知道应该做什么，却难以迈出第一步。这种状态心理学上称为”行动瘫痪”或”决策疲劳”。</p><h2 id="可能的原因"><a href="#可能的原因" class="headerlink" title="可能的原因"></a>可能的原因</h2><ol><li><strong>完美主义</strong>：害怕做不好，所以干脆不开始</li><li><strong>结果不确定性</strong>：担心投入后得不到预期回报</li><li><strong>即时满足偏好</strong>：人类天生倾向于选择即时的小奖励而非延迟的大奖励</li><li><strong>能量管理问题</strong>：可能处于精力低谷期</li><li><strong>缺乏明确的行动计划</strong>：目标太大或太模糊</li></ol><h2 id="一些可能有帮助的策略"><a href="#一些可能有帮助的策略" class="headerlink" title="一些可能有帮助的策略"></a>一些可能有帮助的策略</h2><h3 id="1-降低启动门槛"><a href="#1-降低启动门槛" class="headerlink" title="1. 降低启动门槛"></a>1. 降低启动门槛</h3><p>将任务分解成极小的步骤，小到”不可能失败”的程度。比如”写论文”变成”打开文档并写一句话”。</p><h3 id="2-使用”5分钟规则”"><a href="#2-使用”5分钟规则”" class="headerlink" title="2. 使用”5分钟规则”"></a>2. 使用”5分钟规则”</h3><p>承诺只做5分钟。通常开始后，继续做下去的阻力会减小。</p><h3 id="3-创造外部问责"><a href="#3-创造外部问责" class="headerlink" title="3. 创造外部问责"></a>3. 创造外部问责</h3><p>向朋友承诺，或使用公开的进度追踪。</p><h3 id="4-调整环境"><a href="#4-调整环境" class="headerlink" title="4. 调整环境"></a>4. 调整环境</h3><p>减少分心因素，创造有利于专注的环境。</p><h3 id="5-反思内在动机"><a href="#5-反思内在动机" class="headerlink" title="5. 反思内在动机"></a>5. 反思内在动机</h3><p>思考这件事对你真正的意义是什么？它如何连接到你的核心价值观？</p><h3 id="6-接受不完美"><a href="#6-接受不完美" class="headerlink" title="6. 接受不完美"></a>6. 接受不完美</h3><p>完成比完美更重要。第一版总是可以改进的。</p><h3 id="7-关注过程而非结果"><a href="#7-关注过程而非结果" class="headerlink" title="7. 关注过程而非结果"></a>7. 关注过程而非结果</h3><p>建立日常习惯和系统，而不只是关注最终目标。</p><p>你是否能分享一下具体是什么事情让你难以开始？也许我们可以一起想出更有针对性的策略。</p>]]></content>
       

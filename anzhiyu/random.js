@@ -1,3 +1,3 @@
-var posts=["posts/5634cdad","posts/351ffcb9","posts/61622d0e","posts/269d3d81","posts/c27aca5d"];function toRandomPost(){
+var posts=["2025/03/08/关于行动力不足的思考/","2025/03/09/写给迷茫的自己/","2025/03/11/家庭设备内网穿透/","2025/03/08/大脑记忆能力减弱/","2025/03/08/笔记/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
